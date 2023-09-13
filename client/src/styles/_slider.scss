@@ -1,0 +1,34 @@
+.slider{
+    width: calc(100%);
+    background-image: url('../images/fond56.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
+    height: 90vh;
+
+    .container-slider{
+        height: 90vh;
+        background-color: adjust-color(#000000a8);
+        display: flex;
+        align-items: center;
+        h1{
+            font-family:Open sans;
+            font-size: 2rem;
+            color: #ffffffc2;
+            margin: 50px;
+        }
+        .swiper{
+            width: 900px;
+            height: 70%;
+            border-radius: 20px;
+        }
+        .swiper-slider{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+}

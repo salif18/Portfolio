@@ -1,0 +1,22 @@
+.cardvideo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    video{
+        width: 300px;
+        height: 150px;
+        border-radius: 10px; 
+        margin: 10px;
+       
+    }
+    h1{
+        font-size: 1.25rem;
+        font-family: Roboto;
+        color: #ffffffc2;
+        margin: 20px;  
+    }
+   
+}

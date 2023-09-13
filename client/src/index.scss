@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= PT+Sans+Caption & family= Roboto+Slab:wght@700 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&family=Montserrat:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400&family=Montserrat:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400&family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Montserrat:ital,wght@0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;500&family=Montserrat:ital,wght@0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Montserrat:ital,wght@0,500;1,300&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Lato:wght@300&family=Montserrat:ital,wght@0,500;1,300&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Lato:wght@300;400&family=Montserrat:ital,wght@0,500;1,300&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Exo+2:wght@300&family=Lato:wght@300;400&family=Montserrat:ital,wght@0,500;1,300&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Exo+2:wght@300&family=Lato:wght@300;400&family=Montserrat:ital,wght@0,500;1,300&family=Open+Sans:wght@600&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Exo+2:wght@300&family=Lato:wght@300;400&family=Montserrat:ital,wght@0,500;1,300&family=Open+Sans&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Exo+2:wght@300&family=Langar&family=Lato:wght@300;400&family=Montserrat:ital,wght@0,500;1,300&family=Open+Sans&family=Playfair+Display&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@import './App.scss';
+@import './styles/home';
+@import './styles/navbar';
+@import './styles/projets';
+@import './styles//branner';
+@import'./styles/slider';
+@import './styles/cardSlider';
+@import './styles/sliderprojetc';
+@import './styles/cardvideo';
+@import './styles/videopage';
+@import './styles/propos';
+@import './styles/cv';
+@import './styles/footer';

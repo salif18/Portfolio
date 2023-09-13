@@ -1,0 +1,59 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/propo.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: calc(100%);
+    height: 50vh;
+    
+    .container-footer{
+        background-color: adjust-color(#000000b6);
+        flex: 1;
+        display: flex;
+        //justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+        
+    }
+
+    .contacts{
+        display: flex;
+         .left,.rigth{
+            margin-left: 50px;
+            .icon{
+                font-size: 35px;
+            }
+         }
+        h2{
+            padding: 5px;
+            font-family: Open sans ;
+            font-size: 20px;
+            color: #ffffffc2;
+            cursor: pointer;
+            
+        }
+        p{
+            font-family: Montserrat;
+            color: #ffffffc2;
+            cursor: pointer;
+        }
+
+    }
+
+    .partenaire{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        p{
+            padding: 5px;
+            font-family: Open sans ;
+            font-size: 20px;
+            color: #ffffffc2;
+            cursor: pointer;
+           
+        }
+    }
+
+}

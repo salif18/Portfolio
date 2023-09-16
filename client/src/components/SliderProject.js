@@ -57,8 +57,10 @@ const SliderProject = () => {
 
     return (
         <div className='slider-project'>
-        <h1 className='top-animate'>Mes réalisations</h1>
         
+        
+            
+            <h1 className='top-animate'>Mes réalisations</h1>
             <div className='container-slide'>
               <Swiper
                className='swiper'
@@ -74,7 +76,8 @@ const SliderProject = () => {
                 </SwiperSlide>
                ))}
               </Swiper>
-            </div>
+              </div>
+           
         </div>
     );
 }
